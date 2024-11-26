@@ -40,5 +40,5 @@ The confusion matrix provided the following insights:
 
 The logistic regression model demonstrates excellent overall performance in classifying both healthy and high-risk loans, achieving an accuracy of 99%. It performs exceptionally well at predicting healthy loans, with perfect precision and F1-score and a recall of 99%. For high-risk loans, the model shows strong results with a precision of 85%, recall of 91%, and F1-score of 88%, indicating it is effective at identifying loans at risk.
 
-### Recommendation:
+
 This model is highly reliable for identifying both loan categories, but if minimizing false positives or false negatives for high-risk loans is crucial (e.g., avoiding risky loans), further fine-tuning or alternative models could be explored to improve the precision for high-risk loans without compromising recall.
